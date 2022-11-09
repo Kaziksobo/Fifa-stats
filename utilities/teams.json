@@ -1,0 +1,90 @@
+[
+    {
+        "Name": "Sevilla FC",
+        "Id": "0001"
+    },
+    {
+        "Name": "Real Betis",
+        "Id": "0002"
+    },
+    {
+        "Name": "Granada CF",
+        "Id": "0003"
+    },
+    {
+        "Name": "Real Sociedad",
+        "Id": "0004"
+    },
+    {
+        "Name": "Cádiz CF",
+        "Id": "0005"
+    },
+    {
+        "Name": "Valencia CF",
+        "Id": "0006"
+    },
+    {
+        "Name": "RCD Mallorca",
+        "Id": "0007"
+    },
+    {
+        "Name": "Rayo Vallecano",
+        "Id": "0008"
+    },
+    {
+        "Name": "Atlético de Madrid",
+        "Id": "0009"
+    },
+    {
+        "Name": "CA Osasuna",
+        "Id": "0010"
+    },
+    {
+        "Name": "Girona FC",
+        "Id": "0011"
+    },
+    {
+        "Name": "Real Madrid",
+        "Id": "0012"
+    },
+    {
+        "Name": "Real Valladolid CF",
+        "Id": "0013"
+    },
+    {
+        "Name": "UD Almeriá",
+        "Id": "0014"
+    },
+    {
+        "Name": "Villarreal CF",
+        "Id": "0015"
+    },
+    {
+        "Name": "Getafe CF",
+        "Id": "0016"
+    },
+    {
+        "Name": "Athletic Club",
+        "Id": "0017"
+    },
+    {
+        "Name": "RCD Espanyol",
+        "Id": "0018"
+    },
+    {
+        "Name": "Levante UD",
+        "Id": "0019"
+    },
+    {
+        "Name": "Bayern Munich",
+        "Id": "0020"
+    },
+    {
+        "Name": "BSC Young Boys",
+        "Id": "0021"
+    },
+    {
+        "Name": "Ajax",
+        "Id": "0022"
+    }
+]
