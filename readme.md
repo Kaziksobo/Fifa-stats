@@ -78,7 +78,7 @@ Variables stored for each match:
   - "Assister" (string): The id of the player that assisted the goal
   - "ShotType" (string): The type of shot
 
-## Player data
+### Player data
 
 Data is stored on all players that were in the team as of July 1st 2025.
 Player's that have been sold since then are kept in the dataset, but these variables are set to null: "SquadNumber", "SlowedDevelopment", "Wage", "Bonus", "ContractLength", "ReleaseClause", "SquadRole"
