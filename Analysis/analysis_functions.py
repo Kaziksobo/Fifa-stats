@@ -1,4 +1,4 @@
-import json, os
+import json, os, re
 from pathlib import Path
 import pandas as pd
 
@@ -78,3 +78,20 @@ def player_id2player(players: list, player_id: int) -> str:
     for player in players:
         if player['Id'] == player_id:
             return player['FirstName'] + ' ' + player['LastName']
+
+def stats_conv(stat: str) -> str:
+    if 'pp' in stat:
+        stat = stat.replace('pp', 'per % possession')
+    if 'pShot' in stat:
+        stat = stat.replace('pShot', ' per shot')
+    if 'p90' in stat:
+        stat = stat.replace('p90', ' per 90')
+    if 'xGC' in stat:
+        stat = stat.replace('xGC', 'Expected goal contributions')
+    if 'xG' in stat:
+        stat = stat.replace('xG', 'Expected goals')
+    if 'xA' in stat:
+        stat = stat.replace('xA', 'Expected assists')
+    stat = re.sub(r"(\w)([A-Z])", r"\1 \2", stat)
+    stat = stat.lower().capitalize()
+    return stat
