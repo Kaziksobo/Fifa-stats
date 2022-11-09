@@ -130,3 +130,12 @@ Variables stored for each player:
 - "LeagueTopCleanSheetsRank" (integer): The player's position in the league top clean sheets ranking
 - "LeagueTopYellowCardsRank" (integer): The player's position in the league top yellow cards ranking
 - "LeagueTopRedCardsRank" (integer): The player's position in the league top red cards ranking
+
+### Other data
+Each team has a unique 4 digit Id, which is stored in the teams.json file
+
+### Templates
+There is templates for the data needed for each match and each player, with values that are usually the same already stored in the template (for example red cards is by default marked as 0)
+
+## Analysis
+Currently there is one notebook, that is used for analysing player's match stats, as well as a python file of functions that may be used in future notebooks as well
