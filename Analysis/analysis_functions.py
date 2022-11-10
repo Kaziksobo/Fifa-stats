@@ -3,10 +3,12 @@ from pathlib import Path
 import pandas as pd
 
 def season_adder(current: str) -> str:
+    """Increments the season by one"""
     end_year = current.split('_')[1]
     return f'{end_year}_{str(int(end_year) + 1)}'
 
 def version_adder(season: str, version: str) -> str:
+    """increments the version of the player stats file by one"""
     versions = ['start', 'summer_end', 'winter_end', 'end']
     next_version_num = versions.index(version) + 1
     if next_version_num > 3:
@@ -16,6 +18,7 @@ def version_adder(season: str, version: str) -> str:
     return season, next_version
 
 def best_version(season: str) -> str:
+    """Chooses the most up to date player stats file"""
     unformatted_files = os.listdir(f'C:/Users/kazik/OneDrive/Desktop/Stuff/fifa/Data/{season}/Players')
     files = [file.removesuffix('.json') for file in unformatted_files]
     versions = ['start', 'summer_end', 'winter_end', 'end']
@@ -27,14 +30,17 @@ def best_version(season: str) -> str:
     return versions[best_version]
 
 def players_path_generator(season: str, version: str) -> str:
+    """Generates the path of the player stats file"""
     folder = Path(f'C:/Users/kazik/OneDrive/Desktop/Stuff/fifa/Data/{season}/')
     return folder / f'players/{version}.json'
 
 def matches_path_generator(season: str, comp: str) -> str:
+    """Generates the path of the match stats file for a given competition"""
     folder = Path(f'C:/Users/kazik/OneDrive/Desktop/Stuff/fifa/Data/{season}/')
     return folder / f'matches/{comp}.json'
 
 def loader(version: str, season: str) -> tuple:
+    """Loads the stats files for the players, teams and mathces in every competition"""
     players_path = players_path_generator(season, version)
     players = json.load(open(players_path, encoding='utf-8'))
     teams_path = Path('C:/Users/kazik/OneDrive/Desktop/Stuff/fifa/utilities/teams.json')
@@ -50,6 +56,7 @@ def loader(version: str, season: str) -> tuple:
     return players, matches, teams
 
 def remove_sold(players: list) -> list:
+    """Removes all sold players from the player stats dictionary"""
     for player in players:
         if player['Status'] == 'Sold':
             players.remove(player)
@@ -57,12 +64,14 @@ def remove_sold(players: list) -> list:
     return players
 
 def remove_loan(players: list) -> list:
+    """Removes all on loan players from the player stats dictionary"""
     for player in players:
         if player['Status'] == 'On Loan':
             players.remove(player)
     return players
 
 def create_players_dataframe(players: list):
+    """Creates a pandas dataframe of the player stats"""
     players_df = pd.DataFrame(players)
     players_df = players_df.drop('Injuries', axis=1).drop('Loan', axis=1).drop('Bonus', axis=1).drop('MatchRating', axis=1).drop('MinutesPlayedp90', axis=1)
     players_df['DateSigned'] = pd.to_datetime(players_df['DateSigned'])
@@ -70,16 +79,19 @@ def create_players_dataframe(players: list):
     return players_df
 
 def team_id2team(teams: list, team_id: str) -> str:
+    """Converts the id of a team to their name"""
     for team in teams:
         if team['Id'] == team_id:
             return team['Name']
 
 def player_id2player(players: list, player_id: int) -> str:
+    """Converts the id of a player to their name"""
     for player in players:
         if player['Id'] == player_id:
             return player['FirstName'] + ' ' + player['LastName']
 
 def stats_conv(stat: str) -> str:
+    """Converts a given stat to a more readable format"""
     if 'pp' in stat:
         stat = stat.replace('pp', 'per % possession')
     if 'pShot' in stat:
