@@ -19,7 +19,7 @@ def version_adder(season: str, version: str) -> str:
 
 def best_version(season: str) -> str:
     """Chooses the most up to date player stats file"""
-    unformatted_files = os.listdir(f'C:/Users/kazik/OneDrive/Desktop/Stuff/fifa/Data/{season}/Players')
+    unformatted_files = os.listdir(f'../Data/{season}/Players')
     files = [file.removesuffix('.json') for file in unformatted_files]
     versions = ['start', 'summer_end', 'winter_end', 'end']
     best_version = 0
@@ -31,19 +31,19 @@ def best_version(season: str) -> str:
 
 def players_path_generator(season: str, version: str) -> str:
     """Generates the path of the player stats file"""
-    folder = Path(f'C:/Users/kazik/OneDrive/Desktop/Stuff/fifa/Data/{season}/')
+    folder = Path(f'../Data/{season}/')
     return folder / f'players/{version}.json'
 
 def matches_path_generator(season: str, comp: str) -> str:
     """Generates the path of the match stats file for a given competition"""
-    folder = Path(f'C:/Users/kazik/OneDrive/Desktop/Stuff/fifa/Data/{season}/')
+    folder = Path(f'../Data/{season}/')
     return folder / f'matches/{comp}.json'
 
 def loader(version: str, season: str) -> tuple:
     """Loads the stats files for the players, teams and mathces in every competition"""
     players_path = players_path_generator(season, version)
     players = json.load(open(players_path, encoding='utf-8'))
-    teams_path = Path('C:/Users/kazik/OneDrive/Desktop/Stuff/fifa/utilities/teams.json')
+    teams_path = Path('../utilities/teams.json')
     teams = json.load(open(teams_path, encoding='utf-8'))
     matches = {}
     for comp in ['LaLiga', 'UCL', 'Copa']:
