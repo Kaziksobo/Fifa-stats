@@ -70,14 +70,6 @@ def remove_loan(players: list) -> list:
             players.remove(player)
     return players
 
-def create_players_dataframe(players: list):
-    """Creates a pandas dataframe of the player stats"""
-    players_df = pd.DataFrame(players)
-    players_df = players_df.drop('Injuries', axis=1).drop('Loan', axis=1).drop('Bonus', axis=1).drop('MatchRating', axis=1).drop('MinutesPlayedp90', axis=1)
-    players_df['DateSigned'] = pd.to_datetime(players_df['DateSigned'])
-    players_df['DateSold'] = pd.to_datetime(players_df['DateSold'])
-    return players_df
-
 def team_id2team(teams: list, team_id: str) -> str:
     """Converts the id of a team to their name"""
     for team in teams:
@@ -104,6 +96,8 @@ def stats_conv(stat: str) -> str:
         stat = stat.replace('xG', 'Expected goals')
     if 'xA' in stat:
         stat = stat.replace('xA', 'Expected assists')
+    if '+' in stat:
+        stat = stat.replace('+', ' plus ')
     stat = re.sub(r"(\w)([A-Z])", r"\1 \2", stat)
     stat = stat.lower().capitalize()
     return stat
