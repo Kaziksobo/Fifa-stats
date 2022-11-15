@@ -84,6 +84,8 @@ def player_id2player(players: list, player_id: int) -> str:
 
 def stats_conv(stat: str) -> str:
     """Converts a given stat to a more readable format"""
+    if 'perf' in stat:
+        stat = stat.replace('perf', ' performance')
     if 'pp' in stat:
         stat = stat.replace('pp', 'per % possession')
     if 'pShot' in stat:
