@@ -85,21 +85,23 @@ def player_id2player(players: list, player_id: int) -> str:
 def stats_conv(stat: str) -> str:
     """Converts a given stat to a more readable format"""
     if 'perf' in stat:
-        stat = stat.replace('perf', ' performance')
+        new_stat = stat.replace('perf', ' performance')
     if 'pp' in stat:
-        stat = stat.replace('pp', 'per % possession')
+        new_stat = stat.replace('pp', 'per % possession')
     if 'pShot' in stat:
-        stat = stat.replace('pShot', ' per shot')
+        new_stat = stat.replace('pShot', ' per shot')
     if 'p90' in stat:
-        stat = stat.replace('p90', ' per 90')
+        new_stat = stat.replace('p90', ' per 90')
     if 'xGC' in stat:
-        stat = stat.replace('xGC', 'Expected goal contributions')
+        new_stat = stat.replace('xGC', 'Expected goal contributions')
     if 'xG' in stat:
-        stat = stat.replace('xG', 'Expected goals')
+        new_stat = stat.replace('xG', 'Expected goals')
     if 'xA' in stat:
-        stat = stat.replace('xA', 'Expected assists')
+        new_stat = stat.replace('xA', 'Expected assists')
     if '+' in stat:
-        stat = stat.replace('+', ' plus ')
-    stat = re.sub(r"(\w)([A-Z])", r"\1 \2", stat)
-    stat = stat.lower().capitalize()
-    return stat
+        new_stat = stat.replace('+', ' plus ')
+    if stat == 'Appearances':
+        new_stat = stat
+    new_stat = re.sub(r"(\w)([A-Z])", r"\1 \2", stat)
+    new_stat = stat.lower().capitalize()
+    return new_stat
