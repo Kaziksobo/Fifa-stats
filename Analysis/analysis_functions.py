@@ -100,6 +100,8 @@ def stats_conv(stat: str) -> str:
         new_stat = stat.replace('xA', 'Expected assists')
     if '+' in stat:
         new_stat = stat.replace('+', ' plus ')
+    if 'pg' in stat:
+        new_stat = stat.replace('pg', ' per game')
     if stat == 'Appearances':
         new_stat = stat
     new_stat = re.sub(r"(\w)([A-Z])", r"\1 \2", stat)
