@@ -10628,7 +10628,7 @@
                 "RedCards": 0
             },
             "OtherTeam": {
-                "Id": "",
+                "Id": "0001",
                 "ScoreHT": 0,
                 "ScoreFT": 0,
                 "Side": "Home",
