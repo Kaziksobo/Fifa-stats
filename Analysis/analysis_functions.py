@@ -84,26 +84,27 @@ def player_id2player(players: list, player_id: int) -> str:
 
 def stats_conv(stat: str) -> str:
     """Converts a given stat to a more readable format"""
-    if 'perf' in stat:
-        new_stat = stat.replace('perf', ' performance')
-    if 'pp' in stat:
-        new_stat = stat.replace('pp', 'per % possession')
-    if 'pShot' in stat:
-        new_stat = stat.replace('pShot', ' per shot')
-    if 'p90' in stat:
-        new_stat = stat.replace('p90', ' per 90')
-    if 'xGC' in stat:
-        new_stat = stat.replace('xGC', 'Expected goal contributions')
-    if 'xG' in stat:
-        new_stat = stat.replace('xG', 'Expected goals')
-    if 'xA' in stat:
-        new_stat = stat.replace('xA', 'Expected assists')
-    if '+' in stat:
-        new_stat = stat.replace('+', ' plus ')
-    if 'pg' in stat:
-        new_stat = stat.replace('pg', ' per game')
+    new_stat = stat
+    if 'perf' in new_stat:
+        new_stat = new_stat.replace('perf', ' performance')
+    if 'pp' in new_stat:
+        new_stat = new_stat.replace('pp', 'per % possession')
+    if 'pShot' in new_stat:
+        new_stat = new_stat.replace('pShot', ' per shot')
+    if 'p90' in new_stat:
+        new_stat = new_stat.replace('p90', ' per 90')
+    if 'xGC' in new_stat:
+        new_stat = new_stat.replace('xGC', 'Expected goal contributions')
+    if 'xG' in new_stat:
+        new_stat = new_stat.replace('xG', 'Expected goals')
+    if 'xA' in new_stat:
+        new_stat = new_stat.replace('xA', 'Expected assists')
+    if '+' in new_stat:
+        new_stat = new_stat.replace('+', ' plus ')
+    if 'pg' in new_stat:
+        new_stat = new_stat.replace('pg', ' per game')
     if stat == 'Appearances':
         new_stat = stat
-    new_stat = re.sub(r"(\w)([A-Z])", r"\1 \2", stat)
-    new_stat = stat.lower().capitalize()
+    new_stat = re.sub(r"(\w)([A-Z])", r"\1 \2", new_stat)
+    new_stat = new_stat.lower().capitalize()
     return new_stat
