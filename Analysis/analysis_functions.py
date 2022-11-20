@@ -82,7 +82,7 @@ def player_id2player(players: list, player_id: int) -> str:
         if player['Id'] == player_id:
             return player['FirstName'] + ' ' + player['LastName']
 
-def stats_conv(stat: str) -> str:
+def stats_conv(stat: str) -> str:  # sourcery skip: switch
     """Converts a given stat to a more readable format"""
     new_stat = stat
     if 'perf' in new_stat:
@@ -105,6 +105,8 @@ def stats_conv(stat: str) -> str:
         new_stat = new_stat.replace('pg', ' per game')
     if stat == 'Appearances':
         new_stat = stat
+    if stat == 'MinutesPlayed':
+        new_stat = 'Minutes played'
     new_stat = re.sub(r"(\w)([A-Z])", r"\1 \2", new_stat)
     new_stat = new_stat.lower().capitalize()
     return new_stat
