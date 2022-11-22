@@ -4,6 +4,7 @@
         "Date": "2026-01-28",
         "Label": "CD Mirandés - FC Barcelona",
         "MOTM": "036",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 3,
@@ -591,6 +592,7 @@
         "Date": "2026-01-31",
         "Label": "Valencia CF - FC Barcelona",
         "MOTM": "030",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
@@ -1151,6 +1153,7 @@
         "Label": "RCD Mallorca - FC Barcelona",
         "MOTM": "034",
         "ET": true,
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,

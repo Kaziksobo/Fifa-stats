@@ -4,6 +4,7 @@
         "Date": "2025-08-17",
         "Label": "FC Barcelona - UD Almería",
         "MOTM": "023",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
@@ -561,6 +562,7 @@
         "Date": "2025-08-23",
         "Label": "Athletic Club - FC Barcelona",
         "MOTM": null,
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
@@ -1118,6 +1120,7 @@
         "Date": "2025-08-30",
         "Label": "FC Barcelona - RCD Mallorca",
         "MOTM": "036",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 2,
@@ -1689,6 +1692,7 @@
         "Date": "2025-09-13",
         "Label": "RCD Espanyol - FC Barcelona",
         "MOTM": "034",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 3,
@@ -2267,6 +2271,7 @@
         "Date": "2025-09-20",
         "Label": "FC Barcelona - Real Betis",
         "MOTM": "",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 0,
@@ -2831,6 +2836,7 @@
         "Date": "2025-09-23",
         "Label": "CA Osasuna - FC Barcelona",
         "MOTM": "024",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 3,
@@ -3416,6 +3422,7 @@
         "Date": "2025-09-27",
         "Label": "FC Barcelona - Atlético de Madrid",
         "MOTM": "024",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
@@ -3959,6 +3966,7 @@
         "Date": "2025-10-04",
         "Label": "Getafe CF - FC Barcelona",
         "MOTM": null,
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
@@ -4502,6 +4510,7 @@
         "Date": "2025-10-18",
         "Label": "FC Barcelona - Real Sociedad",
         "MOTM": "030",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
@@ -5059,6 +5068,7 @@
         "Date": "2025-10-25",
         "Label": "Ray Vallecano - FC Barcelona",
         "MOTM": "036",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 3,
@@ -5618,6 +5628,7 @@
         "Date": "2025-10-29",
         "Label": "FC Barcelona - Granada CF",
         "MOTM": "034",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 4,
@@ -6217,6 +6228,7 @@
         "Date": "2025-11-02",
         "Label": "FC Barcelona - Valencia CF",
         "MOTM": "036",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 3,
@@ -6788,6 +6800,7 @@
         "Date": "2025-11-10",
         "Label": "Levante UD - FC Barcelona",
         "MOTM": null,
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
@@ -7352,6 +7365,7 @@
         "Date": "2025-11-21",
         "Label": "FC Barcelona - Villarreal CF",
         "MOTM": "034",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 2,
@@ -7902,6 +7916,7 @@
         "Date": "2025-11-29",
         "Label": "Real Valladolid CF - FC Barcelona",
         "MOTM": "030",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 2,
@@ -8461,6 +8476,7 @@
         "Date": "2025-12-06",
         "Label": "FC Barcelona - Cádiz CF",
         "MOTM": "036",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 2,
@@ -9022,6 +9038,7 @@
         "Date": "2025-12-14",
         "Label": "Girona FC - FC Barcelona",
         "MOTM": "036",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 2,
@@ -9571,6 +9588,7 @@
         "Date": "2025-12-21",
         "Label": "FC Barcelona - Real Madrid",
         "MOTM": "030",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
@@ -10128,6 +10146,7 @@
         "Date": "2026-01-04",
         "Label": "Sevilla FC - FC Barcelona",
         "MOTM": "034",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 0,
@@ -10671,6 +10690,7 @@
         "Date": "2026-01-10",
         "Label": "Valenca CF - FC Barcelona",
         "MOTM": "023",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 0,
@@ -11221,6 +11241,7 @@
         "Date": "2026-01-21",
         "Label": "Granada CF - FC Barcelona",
         "MOTM": null,
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
@@ -11778,6 +11799,7 @@
         "Date": "2026-01-24",
         "Label": "FC Barcelona - Athletic Club",
         "MOTM": "027",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 2,

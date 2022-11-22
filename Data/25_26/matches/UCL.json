@@ -4,6 +4,7 @@
         "Date": "2025-09-17",
         "Label": "FC Barcelona - FC Bayern Munich",
         "MOTM": null,
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
@@ -575,6 +576,7 @@
         "Date": "2025-09-30",
         "Label": "BSC Young Boys - FC Barcelona",
         "MOTM": "034",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 3,
@@ -1153,6 +1155,7 @@
         "Date": "2025-10-21",
         "Label": "Ajax - FC Barcelona",
         "MOTM": "032",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 4,
@@ -1719,6 +1722,7 @@
         "Date": "2025-11-05",
         "Label": "FC Barcelona - Ajax",
         "MOTM": "023",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 2,
@@ -2276,6 +2280,7 @@
         "Date": "2025-11-25",
         "Label": "FC Bayern Munich - FC Barcelona",
         "MOTM": "033",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 3,
@@ -2847,6 +2852,7 @@
         "Date": "2025-12-10",
         "Label": "FC Barcelona - BSC Young Boys", 
         "MOTM": "023",
+        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 3,
