@@ -1153,7 +1153,6 @@
         "Label": "RCD Mallorca - FC Barcelona",
         "MOTM": "034",
         "ET": true,
-        "ET": false,
         "Teams": {
             "Barcelona": {
                 "ScoreHT": 1,
