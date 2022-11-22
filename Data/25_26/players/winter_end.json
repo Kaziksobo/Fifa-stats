@@ -758,7 +758,13 @@
         "SalePrice": null,
         "DateSigned": "2023-07",
         "DateSold": null,
-        "Injuries": [],
+        "Injuries": [
+            {
+                "DateInjured": "2026-01-10",
+                "InjuryLength": 5,
+                "InjuryType": "Bruised Shoulder"
+            }
+        ],
         "LeagueTopScorerRank": null,
         "LeagueTopAssistRank": null,
         "LeagueTopCleanSheetsRank": null,
@@ -971,7 +977,13 @@
         "SalePrice": null,
         "DateSigned": "2023-01",
         "DateSold": null,
-        "Injuries": [],
+        "Injuries": [
+            {
+                "DateInjured": "2026-01-28",
+                "InjuryLength": 5,
+                "InjuryType": "Bruised Shoulder"
+            }
+        ],
         "LeagueTopScorerRank": null,
         "LeagueTopAssistRank": 24,
         "LeagueTopCleanSheetsRank": null,
@@ -1037,7 +1049,13 @@
         "SalePrice": null,
         "DateSigned": "2020-07",
         "DateSold": null,
-        "Injuries": [],
+        "Injuries": [
+            {
+                "DateInjured": "2026-01-24",
+                "InjuryLength": 5,
+                "InjuryType": "Bruised Shoulder"
+            }
+        ],
         "LeagueTopScorerRank": 23,
         "LeagueTopAssistRank": 2,
         "LeagueTopCleanSheetsRank": null,
@@ -1118,7 +1136,13 @@
         "SalePrice": null,
         "DateSigned": "2021-01",
         "DateSold": null,
-        "Injuries": [],
+        "Injuries": [
+            {
+                "DateInjured": "2026-01-21",
+                "InjuryLength": 5,
+                "InjuryType": "Bruised Shoulder"
+            }
+        ],
         "LeagueTopScorerRank": null,
         "LeagueTopAssistRank": null,
         "LeagueTopCleanSheetsRank": null,
