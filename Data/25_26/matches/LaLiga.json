@@ -2270,7 +2270,7 @@
         "Id": "00006",
         "Date": "2025-09-20",
         "Label": "FC Barcelona - Real Betis",
-        "MOTM": "",
+        "MOTM": null,
         "ET": false,
         "Teams": {
             "Barcelona": {
