@@ -34,7 +34,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": 0,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": {
                                 "ShotsFaced": ,
@@ -64,7 +64,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -89,7 +89,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -114,7 +114,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -139,7 +139,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -164,7 +164,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -189,7 +189,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -214,7 +214,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -239,7 +239,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -264,7 +264,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -289,7 +289,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         }
@@ -316,7 +316,7 @@
                             "Possession": null,
                             "PossessionWon": null,
                             "PossessionLost": null,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -341,7 +341,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -366,7 +366,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -391,7 +391,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -416,7 +416,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -441,7 +441,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
@@ -466,7 +466,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": ,
-                            "YellowCards": 0,
+                            "YellowCards": ,
                             "RedCards": 0,
                             "Goalkeeping": null
                         }
