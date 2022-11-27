@@ -94,5 +94,9 @@
     {
         "Name": "Borussia Dortmund",
         "Id": "0024"
+    },
+    {
+        "Name": "Inter Milan",
+        "Id": "0025"
     }
 ]
