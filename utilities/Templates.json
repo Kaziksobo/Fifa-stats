@@ -34,7 +34,7 @@
                             "Possession": 0.0,
                             "PossessionWon": ,
                             "PossessionLost": 0,
-                            "YellowCards": ,
+                            "YellowCards": 0,
                             "RedCards": 0,
                             "Goalkeeping": {
                                 "ShotsFaced": ,
