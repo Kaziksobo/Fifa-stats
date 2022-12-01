@@ -316,7 +316,7 @@
                             "Possession": null,
                             "PossessionWon": null,
                             "PossessionLost": null,
-                            "YellowCards": ,
+                            "YellowCards": 0,
                             "RedCards": 0,
                             "Goalkeeping": null
                         },
