@@ -13715,7 +13715,7 @@
                         },
                         {
                             "PlayerId": "034",
-                            "MinutesPlayed": 993,
+                            "MinutesPlayed": 93,
                             "PositionsPlayed": ["LW", "ST"],
                             "MatchRating": 6.9,
                             "GoalsConceded": 3,
@@ -14738,7 +14738,7 @@
                         },
                         {
                             "PlayerId": "020",
-                            "MinutesPlayed": 993,
+                            "MinutesPlayed": 93,
                             "PositionsPlayed": ["CDM"],
                             "MatchRating": 7.4,
                             "GoalsConceded": 2,
@@ -16375,7 +16375,7 @@
                         },
                         {
                             "PlayerId": "008",
-                            "MinutesPlayed": 993,
+                            "MinutesPlayed": 93,
                             "PositionsPlayed": ["LB"],
                             "MatchRating": 7.3,
                             "GoalsConceded": 0,
@@ -16400,7 +16400,7 @@
                         },
                         {
                             "PlayerId": "019",
-                            "MinutesPlayed": 993,
+                            "MinutesPlayed": 93,
                             "PositionsPlayed": ["CDM"],
                             "MatchRating": 7.3,
                             "GoalsConceded": 0,
@@ -16525,7 +16525,7 @@
                         },
                         {
                             "PlayerId": "027",
-                            "MinutesPlayed": 993,
+                            "MinutesPlayed": 93,
                             "PositionsPlayed": ["LW"],
                             "MatchRating": 7.5,
                             "GoalsConceded": 0,
