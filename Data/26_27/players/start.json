@@ -185,7 +185,12 @@
         "ReleaseClause": 15700000,
         "SquadRole": "Prospect",
         "Status": "At Club",
-        "Loan": null,
+        "Loan": {
+            "LoanLength": 1,
+            "LengthCompleted": 0,
+            "LoanClub": "Atalanta",
+            "BuyOption": false
+        },
         "TransferCost": null,
         "SalePrice": null,
         "DateSigned": "2024-07",
