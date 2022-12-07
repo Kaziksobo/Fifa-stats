@@ -231,7 +231,7 @@
         "Loan": {
             "LoanLength": 1,
             "LengthCompleted": 0.5,
-            "LoanClub": "Surs",
+            "LoanClub": "Spurs",
             "BuyOption": false
         },
         "TransferCost": null,
@@ -264,7 +264,7 @@
         "Bonus": null,
         "ContractLength": 3,
         "ReleaseClause": null,
-        "SquadRole": "Prospect",
+        "SquadRole": "Sporadic",
         "Status": "At Club",
         "Loan": null,
         "TransferCost": null,
