@@ -2737,7 +2737,7 @@
                             "xG": 1.7,
                             "xA": 0.1,
                             "Passes": 7,
-                            "PassesCompleted": 66,
+                            "PassesCompleted": 6,
                             "Possession": 0.04,
                             "PossessionWon": 0,
                             "PossessionLost": 2,
@@ -2777,7 +2777,7 @@
                 "PenaltiesTaken": 0,
                 "PenaltiesScored": 0,
                 "PenaltiesConceded": 0,
-                "YellowCards": 1,
+                "YellowCards": 0,
                 "RedCards": 0
             },
             "OtherTeam": {
@@ -3349,7 +3349,7 @@
                 "PenaltiesTaken": 0,
                 "PenaltiesScored": 0,
                 "PenaltiesConceded": 0,
-                "YellowCards": 1,
+                "YellowCards": 0,
                 "RedCards": 0
             },
             "OtherTeam": {
@@ -5072,7 +5072,7 @@
                 "PenaltiesTaken": 0,
                 "PenaltiesScored": 0,
                 "PenaltiesConceded": 0,
-                "YellowCards": 1,
+                "YellowCards": 0,
                 "RedCards": 0
             },
             "OtherTeam": {
