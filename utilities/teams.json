@@ -118,5 +118,9 @@
     {
         "Name": "Ajax",
         "Id": "0030"
+    },
+    {
+        "Name": "CD Tenerife",
+        "Id": "0031"
     }
 ]
